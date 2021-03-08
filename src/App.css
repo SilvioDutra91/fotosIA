@@ -1,0 +1,50 @@
+/*Folha de Estilo do App*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    background-color: #2D2D2D;
+    color:  #FFFFFF;
+    font-family: 'MonteSerrat', sans-serif;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 90vh; /*Viewport Heigh*/
+    /*A medida vh é 90/100 da altura do dispositivo, ou seja, 
+    uma TV de 1080 dá 972 */
+}
+
+img{
+    width: 100px;
+    border-radius: 50px; 
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+
+}
+
+button{
+    font-size: 20px;
+    margin: 15px; /*externa*/
+    padding: 20px; /*interna*/
+    background-color: #5162FF;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover{ /*quando o mouse estiver posicionado emcima*/
+    background: #FFFFFF;
+    color:#5162FF
+   /*  border: 1px solid #5162FF;*/
+}
+
+label, select {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
